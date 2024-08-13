@@ -9,7 +9,7 @@ window.addEventListener('scroll', function() {
         navbar.classList.remove('scrolled');
     }
 });
-<script>
+
     function toggleMenu() {
         const navLinks = document.querySelector('.nav-links');
         navLinks.classList.toggle('active');
@@ -23,4 +23,3 @@ window.addEventListener('scroll', function() {
             navbar.classList.remove('scrolled');
         }
     });
-</script>
