@@ -11,69 +11,6 @@ html {
 }
 
 
-/* Navbar Styles */
-/* .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-    background-color: transparent;
-    transition: background-color 0.3s ease;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-}
-
-.navbar.scrolled {
-    background-color: white;
-}
-
-.navbar .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: black;
-}
-
-.navbar .nav-links {
-    list-style: none;
-}
-
-.navbar .nav-links li {
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.navbar .nav-links li a {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    transition: color 0.3s;
-}
-
-.navbar .nav-links li a:hover {
-    color: #007BFF;
-} */
-
-/* Hero Section */
-/* .hero-section {
-    height: 100vh;
-    background: linear-gradient(to right, #87CEFA, #e6f7ff);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.hero-section h1 {
-    font-size: 48px;
-    color: black;
-}
-
-.hero-section p {
-    font-size: 24px;
-    color: black;
-} */
 
 
 /* Navbar */
@@ -89,6 +26,9 @@ html {
     z-index: 1000;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
+
+
+
 
 .navbar.scrolled {
     background-color: white; /* White background on scroll */
@@ -115,6 +55,10 @@ html {
     color: black;
     font-size: 18px;
 }
+
+.navbar .nav-links li a:hover {
+    color: #007BFF;
+} 
 
 .hamburger {
     display: none;
